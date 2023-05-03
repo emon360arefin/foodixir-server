@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img_url": "https://i.ibb.co/xjqBbLj/chef-image-1.jpg",
+        "name": "Chef John",
+        "experience": 10,
+        "number_of_recipes": 50,
+        "likes": 1000,
+        "shortBio": "Passionate chef with a flair for international cuisine. With over 10 years of experience in the culinary world, Chef John has mastered the art of creating unique and flavorful dishes that delight the taste buds of food enthusiasts."
+    },
+    {
+        "id": 2,
+        "img_url": "https://i.ibb.co/99pGYfd/chef-image-2.jpg",
+        "name": "Chef Emanuel",
+        "experience": 5,
+        "number_of_recipes": 30,
+        "likes": 500,
+        "shortBio": "Dedicated baker specializing in delicious pastries. Chef Emily brings his creative touch to the world of baking, crafting delightful and visually stunning desserts that leave a lasting impression on anyone who indulges in his creations."
+    },
+    {
+        "id": 3,
+        "img_url": "https://i.ibb.co/4P0rTrp/chef-image-3.jpg",
+        "name": "Chef Sarah",
+        "experience": 8,
+        "number_of_recipes": 45,
+        "likes": 800,
+        "shortBio": "Master of the grill, known for mouthwatering BBQ recipes. Chef David's expertise lies in his ability to transform simple ingredients into succulent and flavorful grilled dishes that are guaranteed to make any gathering a memorable culinary experience."
+    },
+    {
+        "id": 4,
+        "img_url": "https://i.ibb.co/jTrGcm3/chef-image-4.jpg",
+        "name": "Chef David",
+        "experience": 3,
+        "number_of_recipes": 20,
+        "likes": 300,
+        "shortBio": "Innovative chef with a passion for fusion cuisine. Chef Sarah combines her diverse culinary background to create unique flavor combinations that take your taste buds on a gastronomic journey like no other."
+    },
+    {
+        "id": 5,
+        "img_url": "https://i.ibb.co/QvZnP7x/chef-image-5.jpg",
+        "name": "Chef Michael",
+        "experience": 12,
+        "number_of_recipes": 70,
+        "likes": 1500,
+        "shortBio": "Experienced chef with a focus on farm-to-table cooking. Chef Michael's dedication to using fresh, locally sourced ingredients shines through in his dishes, providing a wholesome and sustainable dining experience that satisfies both the palate and conscience."
+    },
+    {
+        "id": 6,
+        "img_url": "https://i.ibb.co/zFw1kZ2/chef-image-6.jpg",
+        "name": "Chef Lisa",
+        "experience": 6,
+        "number_of_recipes": 35,
+        "likes": 600,
+        "shortBio": "Artistic chef with a passion for visually stunning cuisine. Chef Lisa's creations are a feast for the eyes as well as the taste buds, as she meticulously combines flavors, textures, and colors to create culinary works of art that are sure to impress."
+    }
+]

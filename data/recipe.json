@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "recipeName": "Spaghetti Bolognese",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "garlic",
+            "tomatoes",
+            "pasta"
+        ],
+        "cookingMethod": "1. Heat oil in a pan. 2. Sauté onions and garlic. 3. Add ground beef and cook until browned. 4. Stir in tomatoes and simmer. 5. Cook pasta separately. 6. Serve sauce over cooked pasta.",
+        "rating": 4.5,
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "recipeName": "Chicken Stir-Fry",
+        "ingredients": [
+            "chicken breast",
+            "bell peppers",
+            "broccoli",
+            "soy sauce",
+            "ginger"
+        ],
+        "cookingMethod": "1. Cut chicken into pieces. 2. Stir-fry chicken in a pan. 3. Add bell peppers and broccoli. 4. Mix soy sauce and ginger. 5. Pour sauce over chicken and vegetables. 6. Cook until heated through.",
+        "rating": 4.2,
+        "categoryId": 1
+    },
+    {
+        "id": 3,
+        "recipeName": "Chocolate Chip Cookies",
+        "ingredients": [
+            "butter",
+            "sugar",
+            "flour",
+            "chocolate chips",
+            "vanilla extract"
+        ],
+        "cookingMethod": "1. Cream butter and sugar. 2. Add flour and mix well. 3. Stir in chocolate chips and vanilla extract. 4. Drop spoonfuls onto baking sheet. 5. Bake in the oven. 6. Allow to cool before serving.",
+        "rating": 4.8,
+        "categoryId": 1
+    },
+    {
+        "id": 4,
+        "recipeName": "Caesar Salad",
+        "ingredients": [
+            "romaine lettuce",
+            "croutons",
+            "parmesan cheese",
+            "Caesar dressing",
+            "lemon juice"
+        ],
+        "cookingMethod": "1. Wash and chop lettuce. 2. Toss lettuce with croutons and parmesan cheese. 3. Mix Caesar dressing and lemon juice. 4. Drizzle dressing over the salad. 5. Toss to combine. 6. Serve immediately.",
+        "rating": 4.3,
+        "categoryId": 2
+    },
+    {
+        "id": 5,
+        "recipeName": "Mango Salsa",
+        "ingredients": [
+            "mango",
+            "red onion",
+            "jalapeno",
+            "lime juice",
+            "cilantro"
+        ],
+        "cookingMethod": "1. Dice mango, red onion, and jalapeno. 2. Mix them in a bowl. 3. Add lime juice and chopped cilantro. 4. Stir well to combine. 5. Refrigerate for at least 30 minutes. 6. Serve as a dip or topping.",
+        "rating": 4.6,
+        "categoryId": 2
+    },
+    {
+        "id": 6,
+        "recipeName": "Caprese Salad",
+        "ingredients": [
+            "tomatoes",
+            "mozzarella cheese",
+            "basil leaves",
+            "olive oil",
+            "balsamic vinegar"
+        ],
+        "cookingMethod": "1. Slice tomatoes and mozzarella cheese. 2. Arrange them on a plate. 3. Add basil leaves. 4. Drizzle with olive oil and balsamic vinegar. 5. Season with salt and pepper. 6. Serve as a side dish.",
+        "rating": 4.1,
+        "categoryId": 2
+    },
+    {
+        "id": 7,
+        "recipeName": "Chicken Parmesan",
+        "ingredients": [
+            "chicken breast",
+            "breadcrumbs",
+            "marinara sauce",
+            "mozzarella cheese",
+            "parmesan cheese"
+        ],
+        "cookingMethod": "1. Coat chicken in breadcrumbs. 2. Pan-fry breaded chicken until golden. 3. Top with marinara sauce, mozzarella, and parmesan cheese. 4. Bake until cheese is melted and bubbly. 5. Serve hot.",
+        "rating": 4.7,
+        "categoryId": 3
+    },
+    {
+        "id": 8,
+        "recipeName": "Beef Tacos",
+        "ingredients": [
+            "ground beef",
+            "taco seasoning",
+            "tortillas",
+            "lettuce",
+            "tomatoes"
+        ],
+        "cookingMethod": "1. Cook ground beef until browned. 2. Drain excess grease. 3. Mix in taco seasoning. 4. Warm tortillas. 5. Fill tortillas with beef, lettuce, and tomatoes. 6. Fold and serve.",
+        "rating": 4.4,
+        "categoryId": 3
+    },
+    {
+        "id": 9,
+        "recipeName": "Pasta Carbonara",
+        "ingredients": [
+            "spaghetti",
+            "bacon",
+            "eggs",
+            "parmesan cheese",
+            "black pepper"
+        ],
+        "cookingMethod": "1. Cook pasta until al dente. 2. Fry bacon until crispy. 3. In a bowl, whisk eggs, parmesan cheese, and black pepper. 4. Drain pasta and immediately mix with egg mixture. 5. Add bacon and toss until coated. 6. Serve hot.",
+        "rating": 4.6,
+        "categoryId": 3
+    },
+    {
+        "id": 10,
+        "recipeName": "Fish Tacos",
+        "ingredients": [
+            "white fish fillets",
+            "flour",
+            "spices",
+            "cabbage",
+            "salsa"
+        ],
+        "cookingMethod": "1. Coat fish fillets in flour and spices. 2. Pan-fry fish until golden and cooked through. 3. Warm tortillas. 4. Fill tortillas with fish, cabbage, and salsa. 5. Serve with lime wedges.",
+        "rating": 4.3,
+        "categoryId": 4
+    },
+    {
+        "id": 11,
+        "recipeName": "Mushroom Risotto",
+        "ingredients": [
+            "arborio rice",
+            "mushrooms",
+            "onion",
+            "vegetable broth",
+            "white wine"
+        ],
+        "cookingMethod": "1. Sauté onion and mushrooms. 2. Add arborio rice and cook until translucent. 3. Pour in white wine and stir until absorbed. 4. Gradually add vegetable broth while stirring until rice is cooked. 5. Serve hot.",
+        "rating": 4.9,
+        "categoryId": 4
+    },
+    {
+        "id": 12,
+        "recipeName": "Stuffed Bell Peppers",
+        "ingredients": [
+            "bell peppers",
+            "ground beef",
+            "rice",
+            "tomato sauce",
+            "cheese"
+        ],
+        "cookingMethod": "1. Cut tops off bell peppers and remove seeds. 2. Parboil bell peppers until slightly tender. 3. In a pan, cook ground beef and rice. 4. Mix in tomato sauce and seasonings. 5. Stuff bell peppers with the beef and rice mixture. 6. Top with cheese and bake until peppers are fully cooked and cheese is melted.",
+        "rating": 4.2,
+        "categoryId": 4
+    },
+    {
+        "id": 13,
+        "recipeName": "Beef Stew",
+        "ingredients": [
+            "beef chuck",
+            "carrots",
+            "potatoes",
+            "onion",
+            "beef broth"
+        ],
+        "cookingMethod": "1. Cut beef chuck into chunks. 2. Sear beef in a pot. 3. Add onions, carrots, and potatoes. 4. Pour in beef broth. 5. Simmer on low heat until beef is tender. 6. Serve hot.",
+        "rating": 4.5,
+        "categoryId": 5
+    },
+    {
+        "id": 14,
+        "recipeName": "Vegetable Curry",
+        "ingredients": [
+            "mixed vegetables",
+            "coconut milk",
+            "curry paste",
+            "onion",
+            "garlic"
+        ],
+        "cookingMethod": "1. Sauté onion and garlic. 2. Add mixed vegetables and cook until tender. 3. Stir in curry paste. 4. Pour in coconut milk and simmer. 5. Serve with rice or naan bread.",
+        "rating": 4.2,
+        "categoryId": 5
+    },
+    {
+        "id": 15,
+        "recipeName": "Spinach and Feta Stuffed Chicken Breast",
+        "ingredients": [
+            "chicken breast",
+            "spinach",
+            "feta cheese",
+            "garlic",
+            "lemon juice"
+        ],
+        "cookingMethod": "1. Flatten chicken breast. 2. Stuff with spinach, feta cheese, and minced garlic. 3. Roll up chicken and secure with toothpicks. 4. Squeeze lemon juice over chicken. 5. Bake until chicken is cooked through. 6. Serve hot.",
+        "rating": 4.8,
+        "categoryId": 5
+    },
+    {
+        "id": 16,
+        "recipeName": "Pineapple Fried Rice",
+        "ingredients": [
+            "rice",
+            "pineapple",
+            "shrimp",
+            "vegetables",
+            "soy sauce"
+        ],
+        "cookingMethod": "1. Cook rice and let it cool. 2. Sauté shrimp and vegetables. 3. Add cooked rice and stir-fry. 4. Stir in pineapple chunks. 5. Season with soy sauce. 6. Serve hot.",
+        "rating": 4.4,
+        "categoryId": 6
+    },
+    {
+        "id": 17,
+        "recipeName": "Teriyaki Salmon",
+        "ingredients": [
+            "salmon fillets",
+            "teriyaki sauce",
+            "ginger",
+            "garlic",
+            "green onions"
+        ],
+        "cookingMethod": "1. Marinate salmon fillets in teriyaki sauce, ginger, and garlic. 2. Grill or pan-fry salmon until cooked. 3. Garnish with chopped green onions. 4. Serve with steamed rice or vegetables.",
+        "rating": 4.6,
+        "categoryId": 6
+    },
+    {
+        "id": 18,
+        "recipeName": "Lemon Bars",
+        "ingredients": [
+            "butter",
+            "flour",
+            "sugar",
+            "lemon juice",
+            "eggs"
+        ],
+        "cookingMethod": "1. Mix butter, flour, and sugar to make the crust. 2. Press the crust mixture into a baking pan. 3. Bake until golden. 4. Whisk together lemon juice, eggs, and sugar for the filling. 5. Pour the filling over the baked crust. 6. Bake until the filling is set. 7. Allow to cool before cutting into bars.",
+        "rating": 4.7,
+        "categoryId": 6
+    }
+]
