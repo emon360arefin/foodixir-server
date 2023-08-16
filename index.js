@@ -1,4 +1,5 @@
 const express = require('express')
+const mongoose = require('mongoose');
 const app = express()
 const cors = require('cors')
 require('dotenv').config()
@@ -12,6 +13,37 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 app.use(express.json())
+
+
+
+// Route
+app.get('/', (req, res) => {
+    res.send('Foodixir')
+})
+
+app.use('/api/products', productRoute)
+
+
+
+// Connect to Database
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => {
+        console.log("Connected to database");
+
+        // Listen to port
+        app.listen(process.env.PORT, () => {
+            console.log('listening for requests on port', process.env.PORT)
+        })
+    })
+    .catch((err) => {
+        console.log(err)
+    })
+
+
+
+    
+
+
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb')
 const uri = `${process.env.MONGO_URI}`
@@ -30,6 +62,7 @@ async function run() {
         const chefCollection = client.db('foodixirDB').collection('chef')
         const recipeCollection = client.db('foodixirDB').collection('recipe')
         const homecookCollection = client.db('foodixirDB').collection('homecook')
+        const homecookrecipeCollection = client.db('foodixirDB').collection('hoomecookrecipe')
         const favoriteCollection = client.db('foodixirDB').collection('favorite')
 
         // Get User
@@ -78,12 +111,24 @@ async function run() {
 
         // HOMECOOK
 
-        // Get Homecook
+        // Get All Homecook
 
         app.get('/homecook', async (req, res) => {
             const result = await homecookCollection.find().toArray();
             res.send(result)
         });
+
+        app.get('/homecook/:chef', async (req, res) => {
+            const chef = req.params.chef;
+            const query = { name: chef }
+            const result = await homecookCollection.findOne(query);
+            res.send(result)
+        });
+
+
+        // Get single homecook
+
+
 
 
 
@@ -102,6 +147,27 @@ async function run() {
             const chef = req.params.chef;
             const query = { chef: chef }
             const result = await recipeCollection.find(query).toArray();
+            res.send(result)
+        });
+
+
+
+        // HOMECOOK RECIPE
+
+        // Get Homecook Recipe 
+
+        app.get('/homecookrecipe', async (req, res) => {
+            const result = await homecookrecipeCollection.find().toArray();
+            res.send(result)
+        });
+
+
+        // Get a single recipe for homecook
+
+        app.get('/homecookrecipe/:chef', async (req, res) => {
+            const chef = req.params.chef;
+            const query = { homecook: chef }
+            const result = await homecookrecipeCollection.find(query).toArray();
             res.send(result)
         });
 
